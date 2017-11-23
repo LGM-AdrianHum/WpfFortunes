@@ -1,0 +1,30 @@
+﻿<controls:MetroWindow
+    x:Class="WpfFortunes.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:WpfFortunes"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+    Title="Fortune"
+    Width="525"
+    Height="350"
+    mc:Ignorable="d">
+    <Grid>
+        <TextBlock
+            TextWrapping="WrapWithOverflow"
+            x:Name="Message"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Opacity="0"
+            FontFamily="Resources/#Betty"
+            FontSize="22"
+            FontWeight="DemiBold" />
+        <Image
+            Width="120"
+            Margin="0,0,6,6"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            Source="Resources/if_cat_6_993789.ico" />
+    </Grid>
+</controls:MetroWindow>

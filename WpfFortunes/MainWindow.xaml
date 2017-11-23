@@ -9,6 +9,7 @@
     Title="Fortune"
     Width="525"
     Height="350"
+    Icon="Resources/if_cat_6_993789.ico"
     mc:Ignorable="d">
     <Grid>
         <TextBlock
@@ -25,6 +26,8 @@
             Margin="0,0,6,6"
             HorizontalAlignment="Right"
             VerticalAlignment="Bottom"
-            Source="Resources/if_cat_6_993789.ico" />
+            Source="Resources/if_cat_6_993789.ico">
+            <Image.Effect><DropShadowEffect/></Image.Effect>
+            </Image>
     </Grid>
 </controls:MetroWindow>
